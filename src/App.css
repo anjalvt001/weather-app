@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden !important;
+}
+
+.home-container{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/80/eb/55/80eb55040287a9aad9aa160b8deafc57.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 13px;
+  background: rgba(81, 82, 82, 0.226);
+  
+}
+
+.header h2{
+  color: rgb(197, 191, 191);
+  align-items: center;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header img{
+  width: 60px;
+  margin-right: 5px;
+}
+
+.main-container{
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.search input{
+  width: 50em;
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+  padding: 30px;
+  border: none;
+  outline: none;
+  margin-bottom: 50px;
+  font-size: 15px;
+  /* background: rgba( 255, 255, 255, 0.1 ); */
+  background: rgba(98, 146, 115, 0.075);
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  
+  /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.search button{
+  width: 8em;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(98, 146, 115, 0.075);
+  color: white;
+  margin-left: 10px;
+
+  
+}
+
+.search button:hover{
+  background: rgba(157, 163, 157, 0.144);
+  
+}
+
+
+
+.card{
+  width: 500px;
+  height: 400px;
+  padding: 2em;
+  text-align: center;
+  line-height: 60px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background: rgba(98, 146, 115, 0.075);
+  box-shadow: 0 8px 32px 0 rgba(17, 18, 24, 0.37);
+  backdrop-filter: blur( 6.5px );
+  -webkit-backdrop-filter: blur( 6.5px );
+
+  
+  
+  
+  
+  color: white;
+}
+
+.card img{
+  width: 100px;
+}
+
+
+.card h1{
+  font-size: 45px;
+}
+
+.card h6{
+  font-size: 17px;
+}
+
